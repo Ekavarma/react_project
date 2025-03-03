@@ -1,44 +1,53 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 function Header() {
-    return (
-        <>
-            <nav className="navbar navbar-expand-lg bg-body-tertiary">
-                <div className="container-fluid">
-                    
-                    <img src="assets/logo.jpg" alt="Logo" width="50" height="50" style={{ marginRight: "10px" }} />
+    const logo = {
+        src: "assets/logo.jpg",
+        alt: "Logo",
+        width: 50,
+        height: 50
+    };
 
-                    <a className="navbar-brand" href="#carouselExampleAutoplaying">Home</a>
-                    <a className="navbar-brand" href="#Aboutus">About us</a>
-                    <a className="navbar-brand" href="#services">Services</a>
-                    <a className="navbar-brand" href="#gallery">Gallery</a>
-                    <a className="navbar-brand" href="#Contactus">Contact us</a>
-                </div>
-            </nav>
-        </>
+    const navLinks = [
+        { name: "Home", href: "#carouselExampleAutoplaying" },
+        { name: "About us", href: "#Aboutus" },
+        { name: "Services", href: "#services" },
+        { name: "Gallery", href: "#gallery" },
+        { name: "Contact us", href: "#Contactus" }
+    ];
+
+    return (
+        <nav className="navbar navbar-expand-lg bg-body-tertiary">
+            <div className="container-fluid">
+                <img src={logo.src} alt={logo.alt} width={logo.width} height={logo.height} style={{ marginRight: "10px" }} />
+                {navLinks.map((link, index) => (
+                    <a key={index} className="navbar-brand" href={link.href}>{link.name}</a>
+                ))}
+            </div>
+        </nav>
     );
 }
 
 export default Header;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

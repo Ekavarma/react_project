@@ -1,4 +1,5 @@
-import "../customcss/Carousel1.css"
+import "../customcss/carousel1.css";
+
 function Carousel1() {
     return (
         <div id="carouselExampleAutoplaying" className="carousel slide position-relative" data-bs-ride="carousel" data-bs-interval="3000">

@@ -13,6 +13,7 @@ import Gallery from "./mainpage";
 function Mainpage() {
   const [showLogin, setShowLogin] = useState(false);
 
+  
   return (
     <>
       <Header onLoginClick={() => setShowLogin(true)} />

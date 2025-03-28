@@ -2,7 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import React, { useState } from "react";
 
-import "../customcss/landingpage.css";
+import "../styles/landingpage.css";
 import Services from "./services";
 import Aboutus from "./aboutus";
 import ContactUs from "./contactus";

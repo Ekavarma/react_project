@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import "../customcss/carousel1.css";
+import "../styles/carousel1.css";
 
 const carouselItems = [
     { src: "assets/indian wedding.png", alt: "Indian Wedding" },

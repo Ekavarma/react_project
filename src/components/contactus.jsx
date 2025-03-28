@@ -1,5 +1,5 @@
 import React from "react";
-import "../customcss/contactus.css"; // Ensure CSS is imported
+import "../styles/contactus.css"; // Ensure CSS is imported
 
 function Contactus() {
   return (

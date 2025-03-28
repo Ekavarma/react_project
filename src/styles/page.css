@@ -1,0 +1,140 @@
+ /* Centering the main container */
+.auth-container {
+    max-width: 450px;
+    margin: 50px auto;
+    padding: 30px;
+    /* background: #ffffff; */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Heading */
+.auth-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Button Group */
+.auth-btn-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.auth-btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+/* Button Colors */
+.login-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.signup-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.admin-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.auth-btn:hover {
+    filter: brightness(0.9);
+}
+
+/* Content Box */
+.auth-content {
+    border: 2px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+/* Image Styling */
+.auth-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /* .auth-container {
+    max-width: 500px;
+    margin: auto;
+    padding: 40px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-items: center;
+    gap: 20px; 
+}
+
+.auth-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.auth-btn-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%; 
+}
+
+.auth-btn {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.auth-btn:hover {
+    opacity: 0.8;
+}
+
+.auth-content {
+    border: 2px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    width: 100%;
+}
+
+.auth-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+} */

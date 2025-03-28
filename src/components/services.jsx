@@ -1,8 +1,13 @@
+import "../styles/Services.css"
+
 function Services() {
     return (
         <>
             <div>
+            <h1 >Our Services</h1>
+
                 <div class="row row-cols-1 row-cols-md-3 g-4" id="services">
+                    
                     <div class="col">
                         <div class="card h-100">
                             <img src="https://images.squarespace-cdn.com/content/v1/52ed3507e4b041396187d22b/1626266782343-5CQQP13W60DDK8V1PF2Z/Telugu+Wedding+ritual+Saptapati-1.jpg" class="card-img-top" alt="..." />

@@ -1,10 +1,12 @@
+import "../styles/Aboutus.css"
 function Aboutus() {
     const aboutText = "We are one of the leading Event Management & Wedding Planning companies in India. We are Event Plus and we celebrate your love, romance, success, money, health & wellbeing. By organizing powerful & unforgettable celebrations & events. We create your D-day, the best day and the best memory ever!";
     
     const images = [
-        { src: "https://www.wanderglobe.org/wp-content/uploads/2019/08/Celebrate-21st-Birthday-Parties.jpg", alt: "Birthday Party" },
-        { src: "http://www.dipakstudios.com/gallery/1535303839A36I8979-Edit.jpg", alt: "Wedding Celebration" },
-        { src: "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2019/08/07/856908-business-conference-istock.jpg", alt: "Business Conference" }
+        { src: "assets/parties2.jpg", alt: "Birthday Party" },
+        { src: "assets/wedding1.jpg", alt: "Wedding Celebration" },
+     
+        { src: "assets/conference1.jpg", alt: "Business Conference" }
     ];
 
     return (

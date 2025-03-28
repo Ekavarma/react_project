@@ -14,7 +14,7 @@
 // export default Home;
 import React from "react";
 import { Link } from "react-router-dom";
-import "../styles/home.css"; // Custom CSS file for styling
+import "../styles/Home.css"; // Custom CSS file for styling
 
 function Home() {
     return (

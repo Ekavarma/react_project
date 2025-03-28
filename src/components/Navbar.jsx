@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link, useNavigate, useLocation } from "react-router-dom";
-import "../styles/navbar1.css"; // Import the updated CSS
+import "../styles/Navbar1.css"; // Import the updated CSS
 
 function Navbar({ user, setUser }) {
   const navigate = useNavigate();
